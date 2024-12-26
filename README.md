@@ -1,0 +1,1 @@
+This repository demonstrates a subtle but common error in Ruby: incorrectly accessing instance variables.  The `bug.rb` file contains code that attempts to access an instance variable without the `@` prefix. This results in the creation of a local variable instead of accessing the instance variable's value. The `bugSolution.rb` file provides the corrected code.
